@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".ListViewUser">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="352dp"
+        android:layout_height="130dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="0dp">
+
+        <Button
+
+            android:layout_width="352dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:background="#B595D4E8"
+            android:drawableLeft="@drawable/icon_sepakbola"
+            android:text="AYO FUTSAL" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#000"
+            app:cardCornerRadius="15dp">
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/buttonSyncUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:text="Sync / Refresh" />
+
+    <ListView
+        android:id="@+id/listViewUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="30dp">
+
+    </ListView>
+
+</LinearLayout>
