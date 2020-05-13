@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".UserAction">
+    tools:context=".PesananTambah">
 
     <TextView
         android:layout_width="match_parent"
@@ -25,71 +25,93 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Poin"
+        android:text="Nama Lapangan"
         android:textSize="17dp"
         android:textColor="#000" />
 
     <EditText
-        android:id="@+id/InputPoin"
+        android:id="@+id/InputLapangan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Poin"
+        android:hint="Nama Lapangan"
         android:textSize="15dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="No HP"
+        android:text="Mulai Jam"
         android:textSize="17dp"
         android:textColor="#000" />
 
     <EditText
-        android:id="@+id/InputHp"
+        android:id="@+id/InputMulaijam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="No HP"
+        android:hint="Mulai Jam"
         android:textSize="15dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Username"
+        android:text="Selesai Jam"
         android:textSize="17dp"
         android:textColor="#000" />
 
     <EditText
-        android:id="@+id/InputUsername"
+        android:id="@+id/InputSelesaijam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Username"
+        android:hint="Selesai Jam"
         android:textSize="15dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"
+        android:text="Tanggal"
         android:textSize="17dp"
         android:textColor="#000" />
 
     <EditText
-        android:id="@+id/InputPassword"
+        android:id="@+id/InputTanggal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Password"
+        android:hint="Tanggal"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catatan"
+        android:textSize="17dp"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/InputCatatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Catatan"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Pembayaran"
+        android:textSize="17dp"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/InputStatusbayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Status Bayar"
         android:textSize="15dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Edit"
-        android:id="@+id/btnEdit" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hapus"
-        android:id="@+id/btnHapus" />
+        android:text="tambah"
+        android:id="@+id/btnTambah" />
 
 </LinearLayout>

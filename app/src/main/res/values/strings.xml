@@ -10,4 +10,11 @@
     <string name="title_activity_list_view_lapangan">ListViewLapangan</string>
     <string name="title_activity_list_view_user">ListViewUser</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_user_action">UserAction</string>
+    <string name="title_activity_user_tambah">UserTambah</string>
+    <string name="title_activity_lapangan_action">LapanganAction</string>
+    <string name="title_activity_lapangan_tambah">LapanganTambah</string>
+    <string name="title_activity_list_view_pesanan">ListViewPesanan</string>
+    <string name="title_activity_pesanan_action">PesananAction</string>
+    <string name="title_activity_pesanan_tambah">PesananTambah</string>
 </resources>

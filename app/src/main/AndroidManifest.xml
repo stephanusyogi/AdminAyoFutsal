@@ -3,14 +3,47 @@
     package="com.example.ayofutsaladmin">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".PesananTambah"
+            android:label="@string/title_activity_pesanan_tambah"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".PesananAction"
+            android:label="@string/title_activity_pesanan_action"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListViewPesanan"
+            android:label="@string/title_activity_list_view_pesanan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LapanganTambah"
+            android:label="@string/title_activity_lapangan_tambah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LapanganAction"
+            android:label="@string/title_activity_lapangan_action"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListViewLapangan"
+            android:label="@string/title_activity_list_view_lapangan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserTambah"
+            android:label="@string/title_activity_user_tambah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserAction"
+            android:label="@string/title_activity_user_action"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
@@ -28,8 +61,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

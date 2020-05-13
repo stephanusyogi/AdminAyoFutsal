@@ -10,7 +10,7 @@
 
     <TextView
         android:text="ID"
-        android:id="@+id/id_user"
+        android:id="@+id/id_pesanan"
         android:textSize="20dp"
         android:textColor="#000"
         android:layout_width="wrap_content"
@@ -18,42 +18,58 @@
 
     <TextView
         android:text="Nama"
-        android:id="@+id/name"
+        android:id="@+id/nama"
         android:textColor="#000"
         android:textSize="20dp"
-        android:layout_below="@+id/id_user"
+        android:layout_below="@+id/id_pesanan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:text="Point"
-        android:id="@+id/point"
+        android:text="Lapangan"
+        android:id="@+id/lapangan"
         android:textColor="#000"
         android:textSize="20dp"
-        android:layout_below="@+id/name"
+        android:layout_below="@+id/nama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:text="No. HP"
-        android:id="@+id/nohp"
+        android:text="Mulai Jam"
+        android:id="@+id/mulai_jam"
         android:textColor="#000"
         android:textSize="20dp"
-        android:layout_below="@+id/point"
+        android:layout_below="@+id/lapangan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:text="Username"
-        android:id="@+id/username"
+        android:text="Selesai Jam"
+        android:id="@+id/selesai_jam"
         android:textColor="#000"
         android:textSize="20dp"
-        android:layout_below="@+id/nohp"
+        android:layout_below="@+id/mulai_jam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:text="Password"
-        android:id="@+id/password"
+        android:text="Tanggal"
+        android:id="@+id/tanggal"
         android:textColor="#000"
         android:textSize="20dp"
-        android:layout_below="@+id/username"
+        android:layout_below="@+id/selesai_jam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Catatan"
+        android:id="@+id/catatan"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_below="@+id/tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Status Pembayaran"
+        android:id="@+id/status_bayar"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_below="@+id/catatan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button

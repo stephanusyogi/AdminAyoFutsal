@@ -15,22 +15,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        Button jadwal = (Button)findViewById(R.id.btn_jadwal);
-//        jadwal.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent jadwal = new Intent(MainActivity.this, ListViewJadwal.class);
-//                startActivity(jadwal);
-//            }
-//        });
-//        Button lapangan = (Button)findViewById(R.id.btn_MenuLapangan);
-//        lapangan.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent lapangan = new Intent(MainActivity.this, ListViewLapangan.class);
-//                startActivity(lapangan);
-//            }
-//        });
+        Button jadwal = (Button)findViewById(R.id.btn_pesanan);
+        jadwal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent jadwal = new Intent(MainActivity.this, ListViewPesanan.class);
+                startActivity(jadwal);
+            }
+        });
+        Button lapangan = (Button)findViewById(R.id.btn_Lapangan);
+        lapangan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent lapangan = new Intent(MainActivity.this, ListViewLapangan.class);
+                startActivity(lapangan);
+            }
+        });
 
 
         Button user = (Button)findViewById(R.id.btn_lihatuser);
